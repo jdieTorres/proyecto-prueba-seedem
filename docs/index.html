@@ -3,11 +3,12 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="./styles.css">
+  <link rel="stylesheet" type="text/css" href="./responsive.css">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,11 +74,15 @@
 
   <div id="link-wrap" style="background-image: url('./images/bg-shorten-desktop.svg');">
 
-    <form>
-      <input type="text" placeholder="Shorten a link here..." />
-    </form>
+    <div class="link-container">
 
-    <button class="link-button">Shorten It!</button>
+      <form>
+        <input type="text" placeholder="Shorten a link here..." />
+      </form>
+
+      <button class="link-button">Shorten It!</button>
+
+    </div>
 
   </div>
 
@@ -104,7 +109,8 @@
       <h4> Brand Recognition </h4>
 
       <span class="details-description">Boost your brand recognition with each click. Generic links don’t
-        mean a thing. Branded links help instil confidence in your content. </span>
+        mean a thing. Branded links help instil confidence in your content. 
+      </span>
     </div>
 
     <div class="records-container">

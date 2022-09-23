@@ -5,7 +5,6 @@ body {
     background-position-y: 61%;
     color: hsl(0, 0%, 75%);
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
     margin: 0px;
     overflow-x: hidden;
     padding: 0px;
@@ -25,16 +24,20 @@ button {
     border: none;
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: 2.8vh;
     font-weight: 700;
     text-align: center;
+}
+
+form {
+    display: inline;
 }
 
 input {
     border: none;
     color: #afaeb4;
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: 2.83vh;
 }
 
 input::placeholder {
@@ -51,7 +54,7 @@ a {
 #header {
     align-items: center;
     display: flex;
-    font-size: 13.5px;
+    font-size: 2.1vh;
     font-weight: 700;
     justify-content: center;
     margin: 0px auto;
@@ -68,7 +71,7 @@ a {
 
 .header-title {
     color: #322f36;
-    font-size: 30px;
+    font-size: 4.7vh;
     margin-block-start: 0px;
     margin-block-end: 0px;
 }
@@ -108,7 +111,7 @@ a {
 
 .header-sign-button {
     border-radius: 50px;
-    font-size: 13.5px;
+    font-size: 2.1vh;
     margin-top: -2px;
     padding: 8px 22px;
 }
@@ -132,19 +135,19 @@ a {
 
 .start-title {
     color: #34303e;
-    font-size: 70px;
+    font-size: 11vh;
     font-weight: 700;
     line-height: 80px;
 }
 
 .start-subtitle {
     color: #afaeb4;
-    font-size: 20px;
+    font-size: 3.14vh;
 }
 
 .start-button {
     border-radius: 50px;
-    font-size: 18px;
+    font-size: 2.8vh;
     margin-top: 30px;
     margin-left: 5px;
     padding: 12px 35px;
@@ -162,25 +165,24 @@ a {
 .img-working {
     display: block;
     margin: 0px auto;
-    height: 435px;
+    height: 68.4vh;
     width: auto;
 }
 
 /* Link Wrap */
 
 #link-wrap {
-    align-items: center;
     background-color: #3a3053;
     border-radius: 10px;
-    display: flex;
     height: 150px;
-    justify-content: space-between;
     margin: 0px auto;
     margin-top: 50px;
     width: 77%;
 }
 
-#link-wrap form {
+.link-container {
+    float: left;
+    margin-top: 45px;
     width: 100%;
 }
 
@@ -190,14 +192,14 @@ a {
     height: 60px;
     margin-left: 60px;
     padding-left: 30px;
-    width: 85%;
+    width: 64.8%
 }
 
 .link-button {
     border-radius: 10px;
-    margin-right: 60px;
+    margin-left: 18px;
     padding: 18px 35px;
-    width: 21%;
+    width: 17.6%;
 }
 
 .link-button:hover {
@@ -218,12 +220,12 @@ a {
 
 .paragraph-title {
     color: #34303e;
-    font-size: 35px;
+    font-size: 5.5vh;
 }
 
 .paragraph-text {
     color: #afaeb4;
-    font-size: 16px;
+    font-size: 2.5vh;
     margin-top: 10px;
     text-align: center;
 }
@@ -262,13 +264,13 @@ a {
 
 #details-wrap h4 {
     color: #34303e;
-    font-size: 19px;
+    font-size: 2.98vh;
     margin-bottom: 8px;
 }
 
 .details-description {
     color: #afaeb4;
-    font-size: 13px;
+    font-size: 2vh;
 }
 
 .details-circle {
@@ -291,7 +293,7 @@ a {
     height: 7px;
     position: absolute;
     margin-top: 50px;
-    margin-left: 300px;
+    margin-left: 15px;
     width: 52%;
     z-index: -1;
 }
@@ -310,7 +312,7 @@ a {
 
 .boost-container {
     color: white;
-    font-size: 30px;
+    font-size: 4.7vh;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -319,7 +321,7 @@ a {
 .boost-button {
     display: block;
     border-radius: 50px;
-    font-size: 18px;
+    font-size: 2.8vh;
     margin: 0px auto;
     margin-top: 20px;
     padding: 12px 35px;
@@ -364,13 +366,13 @@ a {
 }
 
 .footer-menu h5 {
-    font-size: 14px;
+    font-size: 2.2vh;
 }
 
 .footer-menu ul {
     color: #afaeb4;
     font-weight: 500;
-    font-size: 13.5px;
+    font-size: 2.1vh;
     line-height: 30px;
     list-style: none;
     padding: 0px;
@@ -398,7 +400,7 @@ a {
 }
 
 .footer-social i {
-    font-size: 25px;
+    font-size: 3.9vh;
     margin-left: 20px;
 }
 
@@ -408,7 +410,7 @@ a {
 }
 
 .attribution {
-    font-size: 13px;
+    font-size: 2vh;
     margin-top: 20px;
     text-align: center;
 }

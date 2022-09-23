@@ -1,0 +1,148 @@
+@media (max-width:1289px) {
+
+    #link-wrap input[type="text"] {
+        height: 57px;
+    }
+}
+
+@media (max-width:1123px) {
+
+    #link-wrap input[type="text"] {
+        width: 55%;
+    }
+
+    .link-button {
+        margin-right: 60px;
+        width: 22%;
+    }
+
+}
+
+@media (max-width:1063px) {
+
+    .footer-social {
+        margin-left: 25px;
+    }
+
+    .footer-social i {
+        font-size: 6.5vh;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .details-description {
+        display: block;
+    }
+
+}
+
+@media (max-width:993px) {
+
+    .start-title {
+        font-size: 10vh;
+    }
+
+    .start-subtitle {
+        font-size: 3vh;
+    }
+
+    .img-working {
+        height: 60vh;
+    }
+
+    #link-wrap input[type="text"] {
+        width: 48%;
+    }
+
+    .link-button {
+        width: 25%;
+    }
+
+}
+
+@media (max-width:892px) {
+
+    .start-title {
+        font-size: 8.5vh;
+    }
+
+    .start-subtitle {
+        font-size: 2.5vh;
+    }
+
+    .img-working {
+        height: 50vh;
+    }
+
+    .details-description {
+        font-size: 1.8vh;
+    }
+}
+
+@media (max-width:837px) {
+
+    #link-wrap input[type="text"] {
+        width: 42%;
+    }
+
+    .link-button {
+        width: 28%;
+    }
+
+    .details-circle {
+        margin: 0px auto;
+        margin-bottom: 30px;
+        margin-top: -115px;
+    }
+
+}
+
+@media (max-width:770px) {
+
+    .start-title {
+        font-size: 8vh;
+        line-height: 55px;
+        text-align: center;
+    }
+
+    .start-subtitle {
+        display: block;
+        font-size: 2vh;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .start-button {
+        display: block;
+        margin: 0px auto;
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    #link-wrap {
+        background-image: url('./images/bg-shorten-mobile.svg');
+        background-size: 1716px;
+        height: 260px;
+    }
+
+    #link-wrap input[type="text"] {
+        width: 74%;
+    }
+
+    .link-button {
+        margin-left: 60px;
+        margin-top: 40px;
+        width: 79.5%;
+    }
+
+    
+}
+
+@media (max-width:735px) {
+    
+    body {
+        background-image: none;
+        background-color: greenyellow;
+    }
+
+}
