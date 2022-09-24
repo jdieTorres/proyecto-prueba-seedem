@@ -131,6 +131,10 @@
 }
 
 @media (max-width:735px) {
+
+    input {
+        font-size: 2vh;
+    }
     
     #header {
         width: 80%;
@@ -173,7 +177,7 @@
     }
 
     .start-subtitle {
-        font-size: 3.5vh;
+        font-size: 2vh;
     }
 
     #link-wrap {
