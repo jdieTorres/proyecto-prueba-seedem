@@ -181,27 +181,32 @@
     }
 
     #link-wrap {
-        height: 33vh;
+        height: 30vh;
     }
 
     .link-container {
-        margin-top: 20px;
+        margin: 0px 0px 0px 0px;
+        padding: 20px 20px 20px 20px;
+        width: 84%;
+        /* margin-top: 20px; */
     }
 
     #link-wrap input[type="text"] {
-        display: block;
+        margin: 0px 0px 0px 0px;
+        /* display: block;
         height: 10.28vh;
-        margin: 0px auto;
-        width: 73%;
+        margin: 0px auto; */
+        width: 93%;
     }
 
     .link-button {
-        display: block;
+        margin: 0px 0px 0px 0px;
+        /* display: block;
         height: 10.28vh;
         padding: 0px;
-        margin: 0px auto;
+        margin: 0px auto; */
         margin-top: 30px;
-        width: 84%;
+        width: 99%;
     }
   
 }
