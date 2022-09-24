@@ -212,7 +212,7 @@
 
     .paragraph-text {
         display: block;
-        font-size: 1.8vh;
+        font-size: 2vh;
         margin: 0px auto;
         margin-bottom: 60px;
         margin-top: 20px;
@@ -251,7 +251,7 @@
     .details-line {
         margin: 0px;
         margin-top: 165px;
-        height: 450px;
+        height: 90.75vh;
         width: 7px;
     }
 
