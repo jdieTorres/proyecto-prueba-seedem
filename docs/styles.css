@@ -1,5 +1,10 @@
 /* General */
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-image: url('./images/background.png');
     background-position-y: 61%;
@@ -54,7 +59,7 @@ a {
 #header {
     align-items: center;
     display: flex;
-    font-size: 2.1vh;
+    font-size: 1vw;
     font-weight: 700;
     justify-content: center;
     margin: 0px auto;
@@ -92,6 +97,7 @@ a {
     color: #9d9ca1;
     display: flex;
     list-style: none;
+    margin-left: 40px;
 }
 
 .header-menu-item {
