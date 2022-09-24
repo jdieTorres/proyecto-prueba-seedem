@@ -98,6 +98,10 @@ a {
     margin-right: 28px;
 }
 
+.header-menu-icon {
+    display: none;
+}
+
 .header-menu-login {
     align-items: center;
     color: #9d9ca1;

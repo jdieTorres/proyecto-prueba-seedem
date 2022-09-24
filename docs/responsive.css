@@ -138,11 +138,32 @@
     
 }
 
-@media (max-width:735px) {
+@media (max-width:450px) {
     
-    body {
-        background-image: none;
-        background-color: greenyellow;
+    #header {
+        width: 80%;
+    }
+
+    .header-menu > li{
+        display: none;
+    }
+
+    .header-menu-login {
+        padding: 0px
+    }
+
+    .header-menu-login > li {
+        display: none;
+    }
+
+    .header-menu-icon {
+        display: block;
+        font-size: 9.4vh;
+        margin-left: 30px;
+    }
+
+    #start-wrap {
+        flex-direction: column-reverse;
     }
 
 }
