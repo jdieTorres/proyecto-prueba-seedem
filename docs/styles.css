@@ -146,7 +146,7 @@ a {
 
 .start-subtitle {
     color: #afaeb4;
-    font-size: 3.14vh;
+    font-size: 3.4vh;
 }
 
 .start-button {
@@ -176,6 +176,7 @@ a {
 /* Link Wrap */
 
 #link-wrap {
+    background-image: url('./images/bg-shorten-desktop.svg');
     background-color: #3a3053;
     border-radius: 10px;
     height: 150px;
