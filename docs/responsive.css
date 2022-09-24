@@ -157,7 +157,7 @@
     }
 
     .header-menu-icon {
-        display: block;
+        display: block !important;
         font-size: 6.5vh;
         margin-left: 30px;
     }
@@ -179,9 +179,4 @@
         line-height: normal;
         margin-top: 40px;
     }
-    
-    .start-subtitle {
-        
-    }
-
 }
