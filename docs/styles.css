@@ -99,7 +99,7 @@ a {
 }
 
 .header-menu-icon {
-    display: none;
+    display: none !important;
 }
 
 .header-menu-login {
