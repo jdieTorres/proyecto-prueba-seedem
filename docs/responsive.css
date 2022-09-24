@@ -182,6 +182,7 @@
 
     #link-wrap {
         height: 185px;
+        background-size: 1240px;
     }
 
     .link-container {
@@ -219,6 +220,7 @@
     #link-wrap {
         background-image: url('./images/bg-shorten-mobile.svg');
         background-size: 287px;
+        height: 42vh;
     }
 
     #link-wrap input[type="text"] {
