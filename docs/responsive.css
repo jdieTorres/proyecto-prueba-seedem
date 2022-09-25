@@ -135,7 +135,7 @@
 @media (max-width:735px) {
 
     body {
-        background-position-y: 80%;
+        background-position-y: 91%;
     }
 
     input {
@@ -221,8 +221,8 @@
         display: block;
         font-size: 2vh;
         margin-bottom: 60px;
-        margin-left: 17px;
-        margin-right: 17px;
+        margin-left: 20px;
+        margin-right: 20px;
         margin-top: 20px;
     }
 
