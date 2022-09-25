@@ -114,9 +114,11 @@
 
     .start-button {
         display: block;
+        font-size: 2vh;
         margin: 0px auto;
         margin-top: 30px;
-        width: 55%;
+        padding: 12px 30px;
+        width: 80%;
     }
 
     #link-wrap input[type="text"] {
@@ -310,7 +312,7 @@
         font-size: 2.1vh;
         line-height: 30px;
         padding-top: 20px;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
     }
 
     .footer-social {
