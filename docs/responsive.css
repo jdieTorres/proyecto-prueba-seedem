@@ -271,7 +271,7 @@
 
     .boost-container {
         padding-top: 80px;
-        padding-bottom: 60px;
+        padding-bottom: 20px;
     }
 
     .boost-container {
@@ -349,7 +349,7 @@
 @media (max-width:450px) {
 
     body {
-        background-position-y: 93%;
+        background-position-y: 95%;
     }
 
     #link-wrap {
