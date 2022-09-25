@@ -394,15 +394,7 @@ a {
     cursor: pointer;
 }
 
-.menu-features {
-    width: 33.3%;
-}
-
-.menu-resources {
-    width: 33.3%;
-}
-
-.menu-company {
+.footer-menu > div{
     width: 33.3%;
 }
 
