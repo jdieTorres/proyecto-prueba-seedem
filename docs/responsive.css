@@ -116,7 +116,8 @@
         display: block;
         margin: 0px auto;
         margin-top: 30px;
-        width: 90%;
+        padding: 12px 0px;
+        width: 45%;
     }
 
     #link-wrap input[type="text"] {
@@ -171,7 +172,7 @@
     }
 
     .start-title {
-        font-size: 6.6vh;
+        font-size: 6vh;
         line-height: normal;
         margin-top: 40px;
     }
@@ -181,8 +182,9 @@
     }
 
     #link-wrap {
-        height: 185px;
         background-size: 1240px;
+        height: 185px;
+        margin-top: 70px;
     }
 
     .link-container {
@@ -261,7 +263,7 @@
 
     .boost-container {
         padding-top: 80px;
-        padding-bottom: 80px;
+        padding-bottom: 70px;
     }
 
     .boost-container {
@@ -351,5 +353,3 @@
     }
     
 }
-
-
