@@ -135,7 +135,7 @@
 @media (max-width:735px) {
 
     body {
-        background-position-y: 91%;
+        background-position-y: 83%;
     }
 
     input {
@@ -339,14 +339,18 @@
     }
 
     .attribution {
+        font-size: 2.2vw;
         margin-top: 30px;
         padding-bottom: 40px;
     }
-
 }
 
 
 @media (max-width:450px) {
+
+    body {
+        background-position-y: 93%;
+    }
 
     #link-wrap {
         background-image: url('./images/bg-shorten-mobile.svg');
@@ -362,6 +366,10 @@
 
     .paragraph-text {
         width: auto; 
+    }
+
+    .attribution {
+        font-size: 3vw;
     }
     
 }
