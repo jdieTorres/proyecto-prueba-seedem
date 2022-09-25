@@ -265,7 +265,7 @@
     }
 
     .boost-container {
-        font-size: 3.7vh;
+        font-size: 3.5vh;
     }
     
     .boost-button {
@@ -307,7 +307,7 @@
     
     .footer-menu ul {
         font-size: 2.1vh;
-        line-height: 15px;
+        line-height: normal;
         padding-top: 10px;
         padding-bottom: 10px;
     }
