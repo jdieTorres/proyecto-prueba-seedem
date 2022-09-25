@@ -116,7 +116,7 @@
         display: block;
         margin: 0px auto;
         margin-top: 30px;
-        width: 45%;
+        width: 55%;
     }
 
     #link-wrap input[type="text"] {
@@ -171,7 +171,7 @@
     }
 
     .start-title {
-        font-size: 5.5vh;
+        font-size: 5vh;
         line-height: normal;
         margin-top: 40px;
     }
@@ -194,7 +194,7 @@
 
     #link-wrap input[type="text"] {
         margin: 0px 0px 0px 0px;
-        width: 93%;
+        width: 90%;
     }
 
     .link-button {
@@ -308,8 +308,8 @@
     
     .footer-menu ul {
         font-size: 2.1vh;
-        line-height: 20px;
-        padding-top: 10px;
+        line-height: 30px;
+        padding-top: 20px;
         padding-bottom: 10px;
     }
 
