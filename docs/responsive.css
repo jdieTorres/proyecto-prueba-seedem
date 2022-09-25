@@ -199,11 +199,13 @@
     }
 
     #link-wrap input[type="text"] {
+        border-radius: 7px;
         margin: 0px 0px 0px 0px;
         width: 90%;
     }
 
     .link-button {
+        border-radius: 7px;
         font-size: 2vh;
         padding: 16px 60px;
         margin: 0px;
@@ -269,7 +271,7 @@
 
     .boost-container {
         padding-top: 80px;
-        padding-bottom: 70px;
+        padding-bottom: 60px;
     }
 
     .boost-container {
@@ -338,7 +340,7 @@
 
     .attribution {
         margin-top: 30px;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
 
 }
