@@ -29,7 +29,7 @@ button {
     border: none;
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 2.8vh;
+    font-size: 1.35vw;
     font-weight: 700;
     text-align: center;
 }
@@ -42,7 +42,7 @@ input {
     border: none;
     color: #afaeb4;
     font-family: 'Poppins', sans-serif;
-    font-size: 2.83vh;
+    font-size: 1.36vw;
 }
 
 input::placeholder {
@@ -64,7 +64,7 @@ a {
     justify-content: center;
     margin: 0px auto;
     margin-bottom: 57px;
-    margin-top: 30px;
+    margin-top: 42px;
     padding: 0px;
     width: 100%;
 }
@@ -72,13 +72,6 @@ a {
 .header-logo {
     margin-top: 4px;
     height: 30px;
-}
-
-.header-title {
-    color: #322f36;
-    font-size: 4.7vh;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
 }
 
 .header-wrap {
@@ -121,7 +114,7 @@ a {
 
 .header-sign-button {
     border-radius: 50px;
-    font-size: 2.1vh;
+    font-size: 1.01vw;
     margin-top: -2px;
     padding: 8px 22px;
 }
@@ -145,19 +138,19 @@ a {
 
 .start-title {
     color: #34303e;
-    font-size: 11vh;
+    font-size: 5.36vw;
     font-weight: 700;
     line-height: 80px;
 }
 
 .start-subtitle {
     color: #afaeb4;
-    font-size: 3.4vh;
+    font-size: 1.655vw;
 }
 
 .start-button {
     border-radius: 50px;
-    font-size: 2.8vh;
+    font-size: 1.36vw;
     margin-top: 30px;
     margin-left: 5px;
     padding: 12px 35px;
@@ -187,7 +180,7 @@ a {
     border-radius: 10px;
     height: 150px;
     margin: 0px auto;
-    margin-top: 50px;
+    margin-top: 68px;
     width: 77%;
 }
 
@@ -231,14 +224,15 @@ a {
 
 .paragraph-title {
     color: #34303e;
-    font-size: 5.5vh;
+    font-size: 2.68vw;
 }
 
 .paragraph-text {
     color: #afaeb4;
-    font-size: 2.5vh;
+    font-size: 1.22vw;
     margin-top: 10px;
     text-align: center;
+    width: 35%;    
 }
 
 /* Details Wrap */
@@ -275,13 +269,13 @@ a {
 
 #details-wrap h4 {
     color: #34303e;
-    font-size: 2.98vh;
+    font-size: 1.45vw;
     margin-bottom: 8px;
 }
 
 .details-description {
     color: #afaeb4;
-    font-size: 2vh;
+    font-size: 1vw;
 }
 
 .details-circle {
@@ -323,7 +317,7 @@ a {
 
 .boost-container {
     color: white;
-    font-size: 4.7vh;
+    font-size: 2.29vw;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -332,7 +326,7 @@ a {
 .boost-button {
     display: block;
     border-radius: 50px;
-    font-size: 2.8vh;
+    font-size: 1.36vw;
     margin: 0px auto;
     margin-top: 20px;
     padding: 12px 35px;
@@ -377,13 +371,13 @@ a {
 }
 
 .footer-menu h5 {
-    font-size: 2.2vh;
+    font-size: 1.07;
 }
 
 .footer-menu ul {
     color: #afaeb4;
     font-weight: 500;
-    font-size: 2.1vh;
+    font-size: 1vw;
     line-height: 30px;
     list-style: none;
     padding: 0px;
@@ -403,7 +397,7 @@ a {
 }
 
 .footer-social i {
-    font-size: 3.9vh;
+    font-size: 1.9vw;
     margin-left: 20px;
 }
 
@@ -413,7 +407,7 @@ a {
 }
 
 .attribution {
-    font-size: 2vh;
+    font-size: 1vw;
     margin-top: 20px;
     text-align: center;
 }
