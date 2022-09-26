@@ -270,8 +270,8 @@
     }
 
     .boost-container {
-        padding-top: 80px;
-        padding-bottom: 50px;
+        padding-top: 90px;
+        padding-bottom: 90px;
     }
 
     .boost-container {
@@ -334,7 +334,9 @@
         font-size: 4vh;
     }
 
-    .footer-social i:nth-child(1), .footer-social i:nth-child(2), .footer-social i:nth-child(3){
+    .footer-social i:nth-child(1), 
+    .footer-social i:nth-child(2), 
+    .footer-social i:nth-child(3){
         margin-right: 20px;
     }
 
@@ -372,4 +374,12 @@
         font-size: 3vw;
     }
     
+}
+
+@media (max-width:370px){
+
+    #boost-wrap {
+        background-image: url('./images/bg-boost-mobile.svg');
+        background-repeat: no-repeat;
+    }
 }
